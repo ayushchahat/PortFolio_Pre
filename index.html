@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ayush Kumar Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">A</span> Ayush Kumar</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/header.jpeg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Ayush Kumar<br />Software Developer</h1>
+        </div>
+        <p class="section__description">
+          As a B.Tech student at Motilal Nehru National Institute of Technology, I have honed my skills in software development through hands-on experience with various projects. I specialize in full-stack development with a strong focus on backend technologies like Node.js, Express.js, and databases such as MongoDB.
+I am passionate about solving real-world problems through innovative software solutions and continually seek to expand my knowledge in the field. Currently, I am exploring advanced JavaScript frameworks and enhancing my expertise in scalable backend systems.
+        </p>
+        <div class="header__btn">
+          <button class="btn" id="hire-btn">Hire Me Now</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpeg" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">About Me</h2>
+        <p class="section__description">
+          I'm currently pursuing a Bachelor's degree in Mechanical Engineering at Motilal Nehru National Institute of Technology, Allahabad. I have a strong passion for software development, with skills in C, C++, JavaScript, React.js, Node.js, and MongoDB. My experience includes developing responsive web applications, real-time chat platforms, and interactive games using modern frameworks like React and Bootstrap. I also have a solid foundation in algorithms, data structures, and database management systems, along with practical experience in backend development and API integration.
+        </p>
+        <div class="about__btn">
+          <button class="btn"><a href="assets/resume.pdf" download>Download Resume</a></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section__container" id="projects">
+      <h2 class="section__header">My Projects</h2>
+      <div class="projects__grid">
+        <div class="project__card">
+          <img src="assets/project-chat_now.png" alt="Cosmo Logistics" />
+          <h4>Chat Now (Jan 2024 - May 2024)</h4>
+          <p> Built a real-time chat application, allowing users to engage in one-on-one and group conversations. Implemented Socket.io for real-time messaging, and used JWT for secure user authentication and
+            communication. Designed a responsive and clean interface with React.js and Chakra UI, ensuring seamless navigation and
+            optimal performance across all devices. Deployed the application on Render, providing scalability and reliability for smooth real-time communication.</p>
+          <a href="https://github.com/ayushchahat/Chat_Bot" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project__card">
+          <img src="assets/project-GoFood.png" alt="Smart Solar Panel" />
+          <h4>GoFood (Mar 2024 - June 2024)</h4>
+          <p> Developed a responsive web application enabling users to browse food items, manage shopping carts, and
+            complete purchases seamlessly.
+            Implemented user authentication and authorization with JWT, and developed RESTful APIs for handling core
+            functionalities.
+            Designed a visually engaging interface using React.js and Bootstrap, ensuring smooth navigation and a
+            user-friendly experience across all devices.
+          </p>
+          <a href="https://github.com/ayushchahat/Gofood" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project__card">
+          <img src="assets/project-DiceGame.png" alt="Guardian Drone" />
+          <h4>DiceGame (NOV 2023)</h4>
+          <p> Created an interactive dice game with React, leveraging hooks and state management for smooth gameplay
+            and responsive UI.
+            Utilized modern JavaScript (ES6+) for clean, scalable, and maintainable code, resulting in a 20% reduction in
+            the codebase size.
+            </p>
+          <a href="https://github.com/ayushchahat/Dice_Game/tree/master/frontend" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project__card">
+          <img src="assets/project-portfolio.jpg" alt="Portfolio" />
+          <h4>Portfolio Website</h4>
+          <p>Built a responsive personal portfolio showcasing skills, projects, and contact information using HTML, CSS, and JavaScript.</p>
+          <a href="https://cristianodhoni09.github.io/MyPortfolio/" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="section__container" id="resume">
+      <h2 class="section__header">Resume</h2>
+      <p class="section__description">You can download my latest resume by clicking the button below.</p>
+      <div class="resume__btn">
+        <button class="btn"><a href="assets/resume.pdf" download>Download Resume</a></button>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">A</div>
+      <h2 class="section__header">Let's Talk!</h2>
+      <p class="section__description">
+        Connect with me for collaborations or any opportunities in the software development / Robotic Software development space.
+      </p>
+      <div class="contact__details">
+        
+      </div>
+      <div class="contact__socials">
+        <a href="mailto:ayush110903kumar@gmail.com"><i class="ri-mail-fill"></i></a>
+        <a href="tel:+919693193744"><i class="ri-phone-fill"></i></a>
+        <a href="https://www.linkedin.com/in/ayush-kumar11"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://github.com/ayushchahat"><i class="ri-github-fill"></i></a>
+        <a href="https://leetcode.com/u/Ayushkumar11/"><i class="ri-code-s-slash-line"></i></a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Copyright © 2024 Ayush Kumar. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
